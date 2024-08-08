@@ -1,0 +1,396 @@
+body {
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:  #0B9586;
+    align-items: center;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+nav {
+   
+    justify-content: center;
+    background-color: #0B9586;
+    
+    
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #409c92;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px ;
+    text-decoration: solid;
+}
+/* section {
+    
+
+} */
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+}
+.bg{
+    background-image: url('./img/solar-panels-meadow\ 1.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    padding-top: 20px ;  
+    height: 650px;  
+    
+   
+    
+    
+}
+.ch-1{
+    
+font-size: 25px;
+padding-top: 140px;
+padding-left: 150px;
+
+
+}
+
+.sc2{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0px;
+    
+}
+
+.list1{
+    list-style:none;
+    padding: 50px 0px;
+    font-size: 20px ;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.sc3{
+    background-image: url('./img/8116\ 1.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 505px;
+}
+
+.pt3{
+    padding: 160px ;
+}
+
+
+.sc4{
+    width: 100%;
+    height: 777px;
+    background-color: rgb(255, 251, 246);
+}
+
+.contener0{
+    padding: 50px 0px 50px 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 251, 246);
+}
+
+.contener{
+   
+    display: flex ;
+    justify-content: space-around;
+    align-items: start;
+    background-color: rgb(255, 251, 246);
+   
+}
+
+.blocks{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px;
+    padding-bottom: 20px;
+}
+
+.link-sc4{
+    color: #3CAB90;
+    text-decoration: none;
+padding-left:  20px;
+
+}
+
+.link-sc4::after {
+    content: '→'; 
+    display: inline-block;
+    
+    font-size: 1em; 
+  }
+
+
+  .sc5{
+    background-image: url('./img/8116\ 1.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 520px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.pt5{
+    background-color: #00000091;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding: 40px 0px;
+    border-radius: 15px;
+    
+}
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px ;
+    
+}
+
+.sc6{
+    height: 850px;
+    background-color:  #FFBB1C0D;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-sc5{
+    color: #3CAB90;
+    text-decoration: none;
+
+
+}
+
+.link-sc5::after {
+    content: '→'; 
+    display: inline-block;
+    
+    font-size: 1em; 
+  }
+
+.control6-1{
+    
+    padding: 100px 0px 80px 100px;
+
+}
+
+.control6-2{
+    padding: 100px 0px 80px 0px;
+}
+
+.control6-3{
+    padding: 100px 100px 80px 0px;
+}
+
+.box-1{
+    background-color: #3CAB900D;
+    border: #3CAB90 1px solid;
+    padding: 30px 20px;
+    border-radius: 10px;
+    
+}
+
+.box-2{
+    background-color: #3CAB900D;
+    border: #3CAB90 1px solid;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+/* width: 56px;
+height: 56px;
+
+background: #3CAB90;
+border: 21px solid rgba(60, 171, 144, 0.15);
+border-radius: 10px;
+
+
+flex: none;
+order: 0;
+flex-grow: 0; */
+
+
+/* Vector */
+
+.sc7{
+    padding-top: 80px;
+}
+
+.control7-1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.control7-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.box7-1{
+    background-color: #3CAB900D;
+    border: #3CAB90 1px solid;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.box7-2{
+    background-color: #3CAB900D;
+    border: #3CAB90 1px solid;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+
+.box7-3{
+    background-color: #3CAB900D;
+    border: #3CAB90 1px solid;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+/* Vector */
+
+/* position: absolute;
+left: 3.13%;
+right: 3.13%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(90deg, #3CAB90 0.01%, #0E6752 99.98%); */
+
+
+/* Vector */
+
+/* position: absolute;
+left: 10.37%;
+right: 35.74%;
+top: 33.03%;
+bottom: 10.57%;
+
+background: linear-gradient(90deg, #3CAB90 0.01%, #0E6752 99.98%); */
+
+
+/* Vector */
+
+/* position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: -0.01%;
+bottom: 0.01%;
+
+background: linear-gradient(90deg, #3CAB90 0.01%, #0E6752 99.98%); */
+
+
+/* Customer Loyalty */
+
+
+.sc8{
+    padding: 80px 0px 80px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.control8-3{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+.control8-2{
+    background-color: #3CAB900D;
+    /* border: #3CAB90 1px solid; */
+    padding: 30px 80px 30px 50px;
+    border-radius: 10px;
+}
+
+
+.control8-1{
+    padding-right: 100px;
+}
+
+
+footer {
+    background-color: #283646;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.con-foot1{
+    display: flex;
+    justify-content:space-around ;
+    color: white;
+    padding: 40px 0px;
+}
+
+.con-foot2{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+
+.link-foot{
+    color: white; 
+    text-decoration: none; 
+    padding-right: 30px;
+}
+
+.link-foot2{
+    color:#92989F; 
+    text-decoration: none; 
+    padding-right: 30px;
+    font-size: 15px;
+}
+
+#email{
+    background-color: #B3BDC7;
+    height: 40px;
+    width: 250px;
+    border-radius: 35px;
+    z-index: 1;
+    position: relative;
+    border: #92989F solid;
+padding-left: 20px;
+}
+
+
+
+.bt-foot{
+    background-color: #FFBB1C; 
+    color: white;
+    height: 46px;
+    width: 120px; 
+    border-radius: 35px;
+    z-index: 3;
+    position: absolute;
+    right: 10%;
+    border: 0px;
+}
